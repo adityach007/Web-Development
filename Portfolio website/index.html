@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perosnal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/73fcf64c3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>App Developer</p>
+            <h1>Hi, I'm <span>Aditya</span> <br>Choudhary From India</h1>
+        </div>
+    </div>
+</div>
+<!-- --------------------about------------------------------- -->
+<div id="about"> 
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1 image-front image-back">
+                <img src="images/myimage1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias hic voluptatem incidunt laborum placeat voluptatum provident optio, ipsam dolore voluptatibus pariatur rem quo voluptate expedita ipsa minus! Unde, necessitatibus?</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python Full Stack Developer</span><br>Designing web apps using Djnago and PostreSQL</li>
+                        <li><span>Front-End Developer</span><br>Designing Websites</li>
+                        <li><span>App Developer</span><br>Building android apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>April 2023 - current</span><br>Marketing in ENACTUS Club</li>
+                        <li><span>Jun 2023 - present</span><br>App Developer at READYCODER PVT. LTD.</li>
+                        <li><span>Jun 2023 - present</span><br>Python Full Stack at Pantechelearning</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - 2025</span><br>CGPA - 8.6<br>Btech. - Vellore Institute of Technology</li>
+                        <li><span>2019 - 2020</span><br>Percentage - 86.2%<br>12th - Kendriya Vidyalaya No.1 Jamnagar</li>
+                        <li><span>2017 - 2018</span><br>Percentage - 87.6%<br>10th - Air Force School Jamnagar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------Services------------------------>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Python</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptatibus ex ipsa officiis autem hic voluptatem et necessitatibus modi a.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem totam impedit ipsam earum ab saepe sapiente ad blanditiis? Quidem, saepe.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem nesciunt fuga, totam quisquam optio nemo distinctio. Consequuntur impedit est nam.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------Portfolio------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/train1.jpg">
+                <div class="layer">
+                    <h3>Railway Reservation</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, inventore.</p>
+                    <a href="index3.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Resume Builder</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, inventore.</p>
+                    <a href="index3.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, inventore.</p>
+                    <a href="index3.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/face.jpg">
+                <div class="layer">
+                    <h3>Face Recognition Using Python</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, inventore.</p>
+                    <a href="index3.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -----------------Contact---------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>panwaraditya366@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt hover-like"></i>9723400830</p>
+                <p><a href="index1.html"><i class="fas fa-map"></i></a></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aditya-choudhary-b48779233"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Adityach007"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright<i class="fas fa-copyright"></i>Aditya</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxS5UvcmpoTmSjrCeG_kQFW1VcACqOysKmxpKaE29Askmo2EmUFGbuPC9gGH8qtTdkc/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
