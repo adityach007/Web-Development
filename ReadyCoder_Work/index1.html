@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="ball-1"></div>
+        <div class="ball-2"></div>
+        <div class="ball-3"></div>
+        <div class="box">
+            <nav>
+                <div class="logo"><span>!</span>LOGO</div>
+                <ul>
+                    <li><a>HOME</a></li>
+                    <li><a>ABOUT</a></li>
+                    <li><a>SERVICES</a></li>
+                    <li><a>CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="contains">
+                <div class="col">
+                    <div class="content">
+                        <h1>Udymi</h1>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti aut aspernatur alias blanditiis esse cum?</p> -->
+                    <button type="button">Explore</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card1">
+                        <div class="content">
+                            <h4>Start Competition</h4>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, aliquam.</p> -->
+                        </div>
+                    </div>
+                    <div class="card card2">
+                        <div class="content">
+                            <h4>Idea Validation</h4>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, aliquam.</p> -->
+                        </div>
+                    </div>
+                    <div class="card card3">
+                        <div class="content">
+                            <h4>Mentoring</h4>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, aliquam.</p> -->
+                        </div>
+                    </div>
+                    <div class="card card4">
+                        <div class="content">
+                            <h4>Company Formation</h4>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, aliquam.</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare":1
+        });
+    </script>
+
+</body>
+</html>
