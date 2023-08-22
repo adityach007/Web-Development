@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idea Validation</title>
+    <link rel="stylesheet" href="mentor_style.css">
+</head>
+<body>
+    <div id="container">
+        <span id="text1"></span>
+        <span id="text2"></span>
+    </div>
+    
+    <svg id="filters">
+        <defs>
+            <filter id="threshold">
+                <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                      0 1 0 0 0
+                      0 0 1 0 0
+                      0 0 0 255 -140" />
+            </filter>
+        </defs>
+    </svg>
+
+    <section>
+        <div class="content">
+            <h2>Mentoring</h2>
+            <h3>page reveal onn scroll</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo commodi velit voluptate accusantium nulla nemo laborum itaque minima! Iusto, autem! Assumenda accusantium temporibus molestiae iure ab voluptate tempora architecto vitae.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nihil, quas doloribus hic repudiandae harum maiores! Quod, fugiat nobis! Nam!</p>
+            <a href="#">READ MORE!</a>
+        </div>
+    </section>
+    <section>
+        <div class="content">
+            <h2>Incubation</h2>
+            <h3>page reveal onn scroll</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo commodi velit voluptate accusantium nulla nemo laborum itaque minima! Iusto, autem! Assumenda accusantium temporibus molestiae iure ab voluptate tempora architecto vitae.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nihil, quas doloribus hic repudiandae harum maiores! Quod, fugiat nobis! Nam!</p>
+            <a href="#">READ MORE!</a>
+        </div>
+    </section>
+    <section>
+        <div class="content">
+            <h2>Mentoring Section</h2>
+            <h3>page reveal onn scroll</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo commodi velit voluptate accusantium nulla nemo laborum itaque minima! Iusto, autem! Assumenda accusantium temporibus molestiae iure ab voluptate tempora architecto vitae.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nihil, quas doloribus hic repudiandae harum maiores! Quod, fugiat nobis! Nam!</p>
+            <a href="#">READ MORE!</a>
+        </div>
+    </section>
+    <section>
+        <div class="content">
+            <h2>Technical Support</h2>
+            <h3>page reveal onn scroll</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo commodi velit voluptate accusantium nulla nemo laborum itaque minima! Iusto, autem! Assumenda accusantium temporibus molestiae iure ab voluptate tempora architecto vitae.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nihil, quas doloribus hic repudiandae harum maiores! Quod, fugiat nobis! Nam!</p>
+            <a href="#">READ MORE!</a>
+        </div>
+    </section>
+    <section>
+        <div class="content">
+            <h2>Funding and Marketing Support</h2>
+            <h3>page reveal onn scroll</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo commodi velit voluptate accusantium nulla nemo laborum itaque minima! Iusto, autem! Assumenda accusantium temporibus molestiae iure ab voluptate tempora architecto vitae.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nihil, quas doloribus hic repudiandae harum maiores! Quod, fugiat nobis! Nam!</p>
+            <a href="marketing/market.html">READ MORE!</a>
+        </div>
+    </section>
+    <section>
+        <div class="content">
+            <h2>Current Account Opening</h2>
+            <h3>page reveal onn scroll</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo commodi velit voluptate accusantium nulla nemo laborum itaque minima! Iusto, autem! Assumenda accusantium temporibus molestiae iure ab voluptate tempora architecto vitae.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nihil, quas doloribus hic repudiandae harum maiores! Quod, fugiat nobis! Nam!</p>
+            <a href="#">READ MORE!</a>
+        </div>
+    </section>
+    <section>
+        <div class="content">
+            <h2>StartUp Training</h2>
+            <h3>page reveal onn scroll</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo commodi velit voluptate accusantium nulla nemo laborum itaque minima! Iusto, autem! Assumenda accusantium temporibus molestiae iure ab voluptate tempora architecto vitae.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nihil, quas doloribus hic repudiandae harum maiores! Quod, fugiat nobis! Nam!</p>
+            <a href="#">READ MORE!</a>
+        </div>
+    </section>
+    
+    <script src="scroll-out.js"></script>
+    <script type="text/javascript">
+        ScrollOut({
+            targets: 'h3,h2,p,a'
+        })
+    </script>
+    <script type="text/javascript" src="mentor_js.js"></script>
+</body>
+</html>
